@@ -7,3 +7,15 @@
 # 24 -> 4  16  4
 # 60 -> 10  40  10
 
+# X + X  (Петя и Сережа 2x)
+# Катя - (x+x)*2   (4x)
+# S = x+x+4x = 6
+# X = S / 6
+
+
+S = int(input("Введите общее количество журавликов"))
+
+Petya = S / 6
+Serezha = Petya
+Katya = ( Serezha + Petya ) * 2
+print(f"Сережа съел - {Serezha} , Петя съел - {Petya} , Катя съела - {Katya}")
