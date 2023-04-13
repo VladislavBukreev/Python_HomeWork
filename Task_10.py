@@ -10,13 +10,15 @@ Reshka = 0
 for i in range(1, n + 1):
     x = 0
     x = int(input("Какой стороной вверх лежит эта монета? Нажмите 1 если Орёл, Нажмите 0 если решка. "))
-    if x == 1:
-        Orel = Orel + 1 
+    if x != 0 and x != 1: 
+        raise SystemExit("404 вы ввели не то число =(") # Завершение кода
+    elif x == 1:
+        Orel += 1 
     else:
-        Reshka = Reshka + 1 
+        Reshka += 1 
 
 if Orel > Reshka:
     Result = n - Orel
 else: Result = n - Reshka
 
-print(f"минимальное число монеток, которые нужно перевернуть -> {Result}")
+print(f"минимальное число монеток, которые нужно перевернуть -> {Result}")пше
