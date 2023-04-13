@@ -21,4 +21,4 @@ if Orel > Reshka:
     Result = n - Orel
 else: Result = n - Reshka
 
-print(f"минимальное число монеток, которые нужно перевернуть -> {Result}")пше
+print(f"минимальное число монеток, которые нужно перевернуть -> {Result}")
