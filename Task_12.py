@@ -26,3 +26,10 @@ x1 = (s + (d ** (0.5))) / 2
 y = (s - (d ** (0.5))) / 2
 
 print(f"Число 1 - {x1} Число 2 - {y}")
+
+# x = int(input())
+# y = int(input())
+# for i in range(x):
+#     for j in range(y):
+#         if x == i + j and y == i * j:
+#             print(i, j)
